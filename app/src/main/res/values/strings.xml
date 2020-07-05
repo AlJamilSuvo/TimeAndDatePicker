@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeAndDatePicker</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+</resources>
