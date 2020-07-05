@@ -15,7 +15,7 @@ import al.jamil.suvo.timeanddatepicker.databinding.DatePickerDialogLayoutBinding
 public class DatePickerDialog extends Dialog {
 
 
-    public DatePickerDialog(@NonNull Context context, DataPickerListener listener, Calendar calendar) {
+    public DatePickerDialog(@NonNull Context context, DatePickerDialogListener listener, Calendar calendar) {
         super(context);
         DatePickerDialogLayoutBinding binding = DataBindingUtil.inflate(LayoutInflater.from(context), R.layout.date_picker_dialog_layout, null, false);
         setContentView(binding.getRoot());

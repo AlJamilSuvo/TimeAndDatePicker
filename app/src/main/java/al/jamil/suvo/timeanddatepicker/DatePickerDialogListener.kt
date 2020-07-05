@@ -1,5 +1,5 @@
 package al.jamil.suvo.timeanddatepicker
 
-interface DataPickerListener {
+interface DatePickerDialogListener {
     fun onDatePicked(year: Int, month: Int, dayOfMonth: Int)
 }

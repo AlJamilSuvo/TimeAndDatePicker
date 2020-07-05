@@ -13,7 +13,7 @@ import al.jamil.suvo.timeanddatepicker.databinding.TimePickerDialogLayoutBinding
 
 
 public class TimePickerDialog extends Dialog {
-    public TimePickerDialog(@NonNull Context context, TimePickerListener listener, Calendar calendar) {
+    public TimePickerDialog(@NonNull Context context, TimePickerDialogListener listener, Calendar calendar) {
 
         super(context);
         TimePickerDialogLayoutBinding binding = DataBindingUtil.inflate(LayoutInflater.from(context), R.layout.time_picker_dialog_layout, null, false);

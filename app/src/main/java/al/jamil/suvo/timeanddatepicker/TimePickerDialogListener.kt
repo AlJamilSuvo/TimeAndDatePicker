@@ -1,6 +1,6 @@
 package al.jamil.suvo.timeanddatepicker
 
-interface TimePickerListener {
+interface TimePickerDialogListener {
 
     fun onTimePicked(hourOfDay: Int, minute: Int)
 }
